@@ -1,0 +1,3765 @@
+{
+  "id": "5e661bedf6b9d607bd9fc06a",
+  "link": [
+    {
+      "rel": "self",
+      "href": "Document/5e661bedf6b9d607bd9fc06a/_history/20"
+    }
+  ],
+  "updated": "2020-12-17T11:29:32.581Z",
+  "category": [
+    {
+      "label": "Record needs review | v16 (2020-11-19T11:41:35.257Z)",
+      "scheme": "http://hl7.org/fhir/tag",
+      "term": "http://fhir.blackpear.com/tag/needs-review"
+    },
+    {
+      "label": "Record needs review | v17 (2020-11-20T16:38:39.729Z)",
+      "scheme": "http://hl7.org/fhir/tag",
+      "term": "http://fhir.blackpear.com/tag/needs-review"
+    },
+    {
+      "label": "Record needs review | v18 (2020-11-20T16:48:58.669Z)",
+      "scheme": "http://hl7.org/fhir/tag",
+      "term": "http://fhir.blackpear.com/tag/needs-review"
+    },
+    {
+      "label": "Record needs review | v19 (2020-11-24T10:38:18.322Z)",
+      "scheme": "http://hl7.org/fhir/tag",
+      "term": "http://fhir.blackpear.com/tag/needs-review"
+    }
+  ],
+  "content": {
+    "type": "document",
+    "resourceType": "Bundle",
+    "entry": [
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Chronic kidney disease stage 2",
+            "coding": [
+              {
+                "display": "Chronic kidney disease stage 2",
+                "code": "1Z11.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Chronic kidney disease stage 2",
+                "code": "431856006",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "D6A38196E3A1408BB3EC6E1193766219",
+          "resourceType": "Condition"
+        },
+        "id": "D6A38196E3A1408BB3EC6E1193766219"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Meticillin resistant staphylococcus aureus",
+            "coding": [
+              {
+                "display": "Meticillin resistant staphylococcus aureus",
+                "code": "A3B1100",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Meticillin resistant staphylococcus aureus",
+                "code": "266096002",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2020-03-12",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "56241AC940564EB6A13F98674B5537C5",
+          "resourceType": "Condition"
+        },
+        "id": "56241AC940564EB6A13F98674B5537C5"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Child at risk",
+            "coding": [
+              {
+                "display": "Child at risk",
+                "code": "13IF.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Child at risk",
+                "code": "160877008",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2020-03-12",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "987B0852B70145C0995D11EBF0461833",
+          "resourceType": "Condition"
+        },
+        "id": "987B0852B70145C0995D11EBF0461833"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Self-harm",
+            "coding": [
+              {
+                "display": "Self-harm",
+                "code": "EMISCSE4",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Self-harm",
+                "code": "981171000006104",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2020-03-12",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "0011100681104A62813B2B4348330D0D",
+          "resourceType": "Condition"
+        },
+        "id": "0011100681104A62813B2B4348330D0D"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Methicillin resistant staphylococcus aureus positive",
+            "coding": [
+              {
+                "display": "Methicillin resistant staphylococcus aureus positive",
+                "code": "4JP..00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Methicillin resistant staphylococcus aureus positive",
+                "code": "312210001",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2020-03-12",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "7DE8D970281B414B8B8A74A6613365FD",
+          "resourceType": "Condition"
+        },
+        "id": "7DE8D970281B414B8B8A74A6613365FD"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Learning disability",
+            "coding": [
+              {
+                "display": "Learning disability",
+                "code": "Eu81z11",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Learning disability",
+                "code": "1855002",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2020-03-12",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "5AF63E19ADBE486EB92E09DA65A6E42C",
+          "resourceType": "Condition"
+        },
+        "id": "5AF63E19ADBE486EB92E09DA65A6E42C"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Hearing loss (Bilateral)",
+            "coding": [
+              {
+                "display": "Hearing loss",
+                "code": "F59..00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Hearing loss",
+                "code": "15188001",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2020-03-12",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "096800E098344A0696B57ECD50F44AF5",
+          "resourceType": "Condition"
+        },
+        "id": "096800E098344A0696B57ECD50F44AF5"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "[RFC] Child at risk",
+            "coding": [
+              {
+                "display": "[RFC] Child at risk",
+                "code": "HNGNQRF112",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "[RFC] Child at risk",
+                "code": "910671000006104",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2020-03-12",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "9F4AF335B9EB46098FDBB4F46BFB575C",
+          "resourceType": "Condition"
+        },
+        "id": "9F4AF335B9EB46098FDBB4F46BFB575C"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Not for resuscitation",
+            "coding": [
+              {
+                "display": "Not for resuscitation",
+                "code": "1R1..00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Not for resuscitation",
+                "code": "304253006",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2020-03-12",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "95CA1FCAFFA947D7A26E255B74E769F2",
+          "resourceType": "Condition"
+        },
+        "id": "95CA1FCAFFA947D7A26E255B74E769F2"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Heart failure",
+            "coding": [
+              {
+                "display": "Heart failure",
+                "code": "G58..00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Heart failure",
+                "code": "84114007",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2019-03-10",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "31AA5A44D02642A38E554684FFFCECF5",
+          "resourceType": "Condition"
+        },
+        "id": "31AA5A44D02642A38E554684FFFCECF5"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "[D] Dementia",
+            "coding": [
+              {
+                "display": "[D] Dementia",
+                "code": "EMISNQDD2",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "[D] Dementia",
+                "code": "914941000006108",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2019-01-10",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "6EC03BC9541E4007A5E66AC9D176F855",
+          "resourceType": "Condition"
+        },
+        "id": "6EC03BC9541E4007A5E66AC9D176F855"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Chronic obstructive pulmonary disease",
+            "coding": [
+              {
+                "display": "Chronic obstructive pulmonary disease",
+                "code": "H3...00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Chronic obstructive pulmonary disease",
+                "code": "13645005",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2018-11-25",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "ADD08DCA09864F6893CB2B0969C60401",
+          "resourceType": "Condition"
+        },
+        "id": "ADD08DCA09864F6893CB2B0969C60401"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Type 2 diabetes mellitus",
+            "coding": [
+              {
+                "display": "Type 2 diabetes mellitus",
+                "code": "C10F.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Type 2 diabetes mellitus",
+                "code": "44054006",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2017-03-01",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "922C1F09AC8A4DD6A56039ABA08B6C5D",
+          "resourceType": "Condition"
+        },
+        "id": "922C1F09AC8A4DD6A56039ABA08B6C5D"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Amputation below knee",
+            "coding": [
+              {
+                "display": "Amputation below-knee",
+                "code": "7L06400",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Amputation below-knee",
+                "code": "88312006",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2010-01-01",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "6A1EE156691A4346AF88423DE93378A9",
+          "resourceType": "Condition"
+        },
+        "id": "6A1EE156691A4346AF88423DE93378A9"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "MI - acute myocardial infarction",
+            "coding": [
+              {
+                "display": "MI - acute myocardial infarction",
+                "code": "G30..15",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "MI - acute myocardial infarction",
+                "code": "57054005",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "2004-01-01",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "FFC595796FF04F0C934777242668D7B1",
+          "resourceType": "Condition"
+        },
+        "id": "FFC595796FF04F0C934777242668D7B1"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "asserter": {
+            "reference": "Practitioner/2395"
+          },
+          "severity": {
+            "coding": [
+              {
+                "display": "Severe",
+                "code": "24484000",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Significant Problem/High Priority",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/Significance"
+              }
+            ]
+          },
+          "code": {
+            "text": "Carcinoma in situ of colon",
+            "coding": [
+              {
+                "display": "Carcinoma in situ of colon",
+                "code": "B803.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "Carcinoma in situ of colon",
+                "code": "92568009",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Active Problem/Actual Problem",
+                "code": "1",
+                "system": "http://www.e-mis.com/emisopen/MedicalRecord/Problem/ProblemStatus"
+              }
+            ]
+          },
+          "dateAsserted": "1993-01-01",
+          "extension": [
+            {
+              "valueBoolean": true,
+              "url": "http://fhir.blackpear.com/activeProblem"
+            }
+          ],
+          "id": "D530C9271E2E4632A6E5A8B8BD754202",
+          "resourceType": "Condition"
+        },
+        "id": "D530C9271E2E4632A6E5A8B8BD754202"
+      },
+      {
+        "content": {
+          "encounter": {
+            "reference": "Encounter/079BE055595343AA966EB58896E37387"
+          },
+          "dispense": {
+            "quantity": {
+              "units": "tablet",
+              "value": 20
+            },
+            "numberOfRepeatsAllowed": 10
+          },
+          "dosageInstruction": [
+            {
+              "text": "One To Be Taken Each Day"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-EF3AC28D2ECE458BAC7DBB0AD203EBDF",
+            "display": "Sitagliptin 50mg tablets"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2018-04-21",
+          "extension": [
+            {
+              "valueString": "RepeatMaster",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            },
+            {
+              "valueString": "2019-10-09",
+              "url": "http://fhir.blackpear.com/lastIssueDate"
+            }
+          ],
+          "id": "EF3AC28D2ECE458BAC7DBB0AD203EBDF",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "EF3AC28D2ECE458BAC7DBB0AD203EBDF"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Sitagliptin 50mg tablets",
+            "coding": [
+              {
+                "display": "Sitagliptin 50mg tablets",
+                "code": "424513004",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-EF3AC28D2ECE458BAC7DBB0AD203EBDF",
+          "resourceType": "Medication"
+        },
+        "id": "med-EF3AC28D2ECE458BAC7DBB0AD203EBDF"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": ""
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "injection"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-66F362B58AD94F7F82211A94E9BC49D6",
+            "display": "Kenalog Intra-articular / Intramuscular 40mg/1ml suspension for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd)"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "66F362B58AD94F7F82211A94E9BC49D6",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "66F362B58AD94F7F82211A94E9BC49D6"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": ""
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "1 injection"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-1D478ACB527640C38486F1F5182C2C43",
+            "display": "Lidocaine 20mg/2ml (1%) solution for injection ampoules"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "1D478ACB527640C38486F1F5182C2C43",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "1D478ACB527640C38486F1F5182C2C43"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": "unit dose",
+              "value": 2.5
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "injection"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-4C6F337FFBE24C6290BE116CFB989BAB",
+            "display": "Saline Steripoules nebuliser liquid 2.5ml unit dose ampoules (Galen Ltd)"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "4C6F337FFBE24C6290BE116CFB989BAB",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "4C6F337FFBE24C6290BE116CFB989BAB"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": "tablet",
+              "value": 20
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "One To Be Taken Each Morning"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-C045F799FD344505ADA3579517F75FDB",
+            "display": "Aspirin 75mg tablets"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "C045F799FD344505ADA3579517F75FDB",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "C045F799FD344505ADA3579517F75FDB"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": "device",
+              "value": 1
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "follow recomended instruction"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-D4F63B09A9A64A3EAD0EC908ADD8EB91",
+            "display": "Assura colostomy bag with filter, maxi 2481 Starter hole 20mm Clear (Coloplast Ltd)"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "D4F63B09A9A64A3EAD0EC908ADD8EB91",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "D4F63B09A9A64A3EAD0EC908ADD8EB91"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": "tablet",
+              "value": 20
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "One To Be Taken Each Day"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-1FB5674DD19E47F68705A01B97B28FEB",
+            "display": "Atorvastatin 20mg tablets"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "1FB5674DD19E47F68705A01B97B28FEB",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "1FB5674DD19E47F68705A01B97B28FEB"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": "tablet",
+              "value": 10
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "One To Be Taken Each Day"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-DA26E14784C2459DBA090F154FF6DF94",
+            "display": "Bisoprolol 10mg tablets"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "DA26E14784C2459DBA090F154FF6DF94",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "DA26E14784C2459DBA090F154FF6DF94"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": "unit dose",
+              "value": 12
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "One Dose To Be Inhaled Three Times A Day"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-402C66B1ADD3402DA0DEBCF1D480E495",
+            "display": "Combivent nebuliser liquid 2.5ml UDVs (Boehringer Ingelheim Ltd)"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "402C66B1ADD3402DA0DEBCF1D480E495",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "402C66B1ADD3402DA0DEBCF1D480E495"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": "capsule",
+              "value": 100
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "Two To Be Taken Each Day"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-549BD7A8DC5740F4916681D8D760F729",
+            "display": "Doxycycline 50mg capsules"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "549BD7A8DC5740F4916681D8D760F729",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "549BD7A8DC5740F4916681D8D760F729"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": "dose",
+              "value": 120
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "Two Puffs To Be Inhaled Twice A Day"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-F9B19965796B4DFF8EDB6CC3687557C7",
+            "display": "Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (Chiesi Ltd)"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "F9B19965796B4DFF8EDB6CC3687557C7",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "F9B19965796B4DFF8EDB6CC3687557C7"
+      },
+      {
+        "content": {
+          "dispense": {
+            "quantity": {
+              "units": "lozenge",
+              "value": 30
+            }
+          },
+          "dosageInstruction": [
+            {
+              "text": "pack of 30"
+            }
+          ],
+          "medication": {
+            "reference": "Medication/med-6F357F482B3B4A7FA033A70CF5E78689",
+            "display": "Strepsils Honey and Lemon lozenges (Reckitt Benckiser Healthcare (UK) Ltd)"
+          },
+          "prescriber": {
+            "reference": "Practitioner/2395"
+          },
+          "patient": {
+            "reference": "Patient/500207"
+          },
+          "status": "active",
+          "dateWritten": "2020-11-03",
+          "extension": [
+            {
+              "valueString": "Acute",
+              "url": "http://fhir.blackpear.com/prescriptionType"
+            }
+          ],
+          "id": "6F357F482B3B4A7FA033A70CF5E78689",
+          "resourceType": "MedicationPrescription"
+        },
+        "id": "6F357F482B3B4A7FA033A70CF5E78689"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Kenalog Intra-articular / Intramuscular 40mg/1ml suspension for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd)",
+            "coding": [
+              {
+                "display": "Kenalog Intra-articular / Intramuscular 40mg/1ml suspension for injection vials (Bristol-Myers Squibb Pharmaceuticals Ltd)",
+                "code": "306011000001103",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-66F362B58AD94F7F82211A94E9BC49D6",
+          "resourceType": "Medication"
+        },
+        "id": "med-66F362B58AD94F7F82211A94E9BC49D6"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Lidocaine 20mg/2ml (1%) solution for injection ampoules",
+            "coding": [
+              {
+                "display": "Lidocaine 20mg/2ml (1%) solution for injection ampoules",
+                "code": "36039411000001106",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-1D478ACB527640C38486F1F5182C2C43",
+          "resourceType": "Medication"
+        },
+        "id": "med-1D478ACB527640C38486F1F5182C2C43"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Saline Steripoules nebuliser liquid 2.5ml unit dose ampoules (Galen Ltd)",
+            "coding": [
+              {
+                "display": "Saline Steripoules nebuliser liquid 2.5ml unit dose ampoules (Galen Ltd)",
+                "code": "34175011000001104",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-4C6F337FFBE24C6290BE116CFB989BAB",
+          "resourceType": "Medication"
+        },
+        "id": "med-4C6F337FFBE24C6290BE116CFB989BAB"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Aspirin 75mg tablets",
+            "coding": [
+              {
+                "display": "Aspirin 75mg tablets",
+                "code": "319775004",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-C045F799FD344505ADA3579517F75FDB",
+          "resourceType": "Medication"
+        },
+        "id": "med-C045F799FD344505ADA3579517F75FDB"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Assura colostomy bag with filter, maxi 2481 Starter hole 20mm Clear (Coloplast Ltd)",
+            "coding": [
+              {
+                "display": "Assura colostomy bag with filter, maxi 2481 Starter hole 20mm Clear (Coloplast Ltd)",
+                "code": "5684311000001102",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-D4F63B09A9A64A3EAD0EC908ADD8EB91",
+          "resourceType": "Medication"
+        },
+        "id": "med-D4F63B09A9A64A3EAD0EC908ADD8EB91"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Atorvastatin 20mg tablets",
+            "coding": [
+              {
+                "display": "Atorvastatin 20mg tablets",
+                "code": "320030001",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-1FB5674DD19E47F68705A01B97B28FEB",
+          "resourceType": "Medication"
+        },
+        "id": "med-1FB5674DD19E47F68705A01B97B28FEB"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Bisoprolol 10mg tablets",
+            "coding": [
+              {
+                "display": "Bisoprolol 10mg tablets",
+                "code": "318591005",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-DA26E14784C2459DBA090F154FF6DF94",
+          "resourceType": "Medication"
+        },
+        "id": "med-DA26E14784C2459DBA090F154FF6DF94"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Combivent nebuliser liquid 2.5ml UDVs (Boehringer Ingelheim Ltd)",
+            "coding": [
+              {
+                "display": "Combivent nebuliser liquid 2.5ml UDVs (Boehringer Ingelheim Ltd)",
+                "code": "3406011000001104",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-402C66B1ADD3402DA0DEBCF1D480E495",
+          "resourceType": "Medication"
+        },
+        "id": "med-402C66B1ADD3402DA0DEBCF1D480E495"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Doxycycline 50mg capsules",
+            "coding": [
+              {
+                "display": "Doxycycline 50mg capsules",
+                "code": "324070004",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-549BD7A8DC5740F4916681D8D760F729",
+          "resourceType": "Medication"
+        },
+        "id": "med-549BD7A8DC5740F4916681D8D760F729"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (Chiesi Ltd)",
+            "coding": [
+              {
+                "display": "Fostair NEXThaler 100micrograms/dose / 6micrograms/dose dry powder inhaler (Chiesi Ltd)",
+                "code": "26112111000001106",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-F9B19965796B4DFF8EDB6CC3687557C7",
+          "resourceType": "Medication"
+        },
+        "id": "med-F9B19965796B4DFF8EDB6CC3687557C7"
+      },
+      {
+        "content": {
+          "code": {
+            "text": "Strepsils Honey and Lemon lozenges (Reckitt Benckiser Healthcare (UK) Ltd)",
+            "coding": [
+              {
+                "display": "Strepsils Honey and Lemon lozenges (Reckitt Benckiser Healthcare (UK) Ltd)",
+                "code": "3729411000001104",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "med-6F357F482B3B4A7FA033A70CF5E78689",
+          "resourceType": "Medication"
+        },
+        "id": "med-6F357F482B3B4A7FA033A70CF5E78689"
+      },
+      {
+        "content": {
+          "substance": {
+            "display": "Allergic reaction to bee sting"
+          },
+          "sensitivityType": "allergy",
+          "recorder": {
+            "reference": "Practitioner/2395"
+          },
+          "subject": {
+            "reference": "Patient/500207"
+          },
+          "status": "confirmed",
+          "recordedDate": "2020-10-13",
+          "extension": [
+            {
+              "valueCodeableConcept": {
+                "text": "Allergic reaction to bee sting",
+                "coding": [
+                  {
+                    "display": "Allergic reaction to bee sting",
+                    "code": "SN59000",
+                    "system": "http://read.info/readv2"
+                  },
+                  {
+                    "display": "Allergic reaction to bee sting",
+                    "code": "282095007",
+                    "system": "http://snomed.info/sct"
+                  }
+                ]
+              },
+              "url": "http://fhir.blackpear.com/codeList"
+            }
+          ],
+          "id": "D3432A10456248ED83712AD5C5782A48",
+          "resourceType": "AllergyIntolerance"
+        },
+        "id": "D3432A10456248ED83712AD5C5782A48"
+      },
+      {
+        "content": {
+          "managingOrganization": {
+            "identifier": {
+              "value": "A29390",
+              "system": "https://fhir.nhs.uk/Id/ods-organization-code"
+            },
+            "reference": "Organization/4882"
+          },
+          "identifier": [
+            {
+              "label": "NHS",
+              "value": "9449303789",
+              "system": "http://www.datadictionary.nhs.uk/data_dictionary/attributes/n/nhs/nhs_number_de.asp"
+            }
+          ],
+          "telecom": [
+            {
+              "value": "0191123456",
+              "use": "home",
+              "system": "phone"
+            },
+            {
+              "value": "0777123456",
+              "use": "mobile",
+              "system": "phone"
+            }
+          ],
+          "address": [
+            {
+              "zip": "KT10 8ED",
+              "state": "Surrey",
+              "city": "Esher",
+              "line": [
+                "25 Imber Close"
+              ],
+              "text": "25 Imber Close, Esher, Surrey, KT10 8ED",
+              "use": "home"
+            }
+          ],
+          "birthDate": "1936-10-13",
+          "gender": {
+            "coding": [
+              {
+                "code": "F",
+                "system": "http://hl7.org/fhir/v3/vs/AdministrativeGender"
+              }
+            ]
+          },
+          "name": [
+            {
+              "prefix": [
+                "Ms"
+              ],
+              "given": [
+                "Margaret"
+              ],
+              "family": [
+                "Rhys"
+              ],
+              "text": "Ms Margaret Rhys",
+              "use": "official"
+            },
+            {
+              "text": "Mags",
+              "use": "usual"
+            }
+          ],
+          "extension": [
+            {
+              "valueCodeableConcept": {
+                "text": "Regular",
+                "coding": [
+                  {
+                    "display": "Regular",
+                    "code": "4",
+                    "system": "http://www.e-mis.com/emisopen/MedicalRecord/StatusType/PatientType"
+                  }
+                ]
+              },
+              "url": "http://fhir.blackpear.com/currentPatientType"
+            },
+            {
+              "valueCodeableConcept": {
+                "text": "Patient has presented",
+                "coding": [
+                  {
+                    "display": "Patient has presented",
+                    "code": "1",
+                    "system": "http://www.e-mis.com/emisopen/MedicalRecord/StatusType/Code"
+                  }
+                ]
+              },
+              "url": "http://fhir.blackpear.com/currentRegistrationStatus"
+            },
+            {
+              "valuePeriod": {
+                "start": "2019-05-21"
+              },
+              "url": "http://fhir.blackpear.com/currentRegistrationPeriod"
+            },
+            {
+              "valueString": "EMIS",
+              "url": "http://fhir.blackpear.com/patientGPSystem"
+            }
+          ],
+          "id": "5d9da19d1d950e07f4d456d9",
+          "resourceType": "Patient"
+        },
+        "id": "5d9da19d1d950e07f4d456d9"
+      },
+      {
+        "content": {
+          "description": "Main EPaCCS care plan",
+          "status": "unknown",
+          "patient": {
+            "reference": "5d9da19d1d950e07f4d456d9"
+          },
+          "concern": {
+            "reference": "Condition/PRIMARY_DIAGNOSIS"
+          },
+          "modified": "2020-12-17T11:29:24.533Z",
+          "period": {
+            "start": "2020-03-09"
+          },
+          "extension": [
+            {
+              "valueDateTime": "2020-03-31",
+              "url": "http://fhir.blackpear.com/datetypes#reviewdate"
+            }
+          ],
+          "id": "EPACCS_CAREPLAN",
+          "resourceType": "CarePlan"
+        },
+        "id": "EPACCS_CAREPLAN"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Patient has been informed EPaCCS will be shared",
+                "code": "PATIENT_INFORMED_EPACCS_SHARING_BASIS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Informing the patient that EPaCCS will be shared, viewed and amended",
+                "code": "INFORM_PATIENT_STATUS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "INFORM_PATIENT_STATUS",
+          "resourceType": "Observation"
+        },
+        "id": "INFORM_PATIENT_STATUS"
+      },
+      {
+        "content": {
+          "valueBoolean": false,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Other impairment",
+                "code": "OTHER_IMPAIRMENT",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "OTHER_IMPAIRMENT",
+          "resourceType": "Observation"
+        },
+        "id": "OTHER_IMPAIRMENT"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Interpreter needed",
+                "code": "9NU0.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "460112014",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Interpreter needed",
+                "code": "315594003",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Interpreter needed",
+                "code": "XaI8X",
+                "system": "http://read.info/ctv3"
+              },
+              {
+                "display": "Interpreter needed",
+                "code": "INTERPRETER_NEEDED",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Is interpreter needed",
+                "code": "IS_INTERPRETER_NEEDED",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "INTERPRETER_NEEDED",
+          "resourceType": "Observation"
+        },
+        "id": "INTERPRETER_NEEDED"
+      },
+      {
+        "content": {
+          "valueString": "test",
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Main spoken language",
+                "code": "13l..00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "2672528018",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Main spoken language",
+                "code": "370157003",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Main spoken language",
+                "code": "Ua0HJ",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "LANGUAGE_SPOKEN",
+          "resourceType": "Observation"
+        },
+        "id": "LANGUAGE_SPOKEN"
+      },
+      {
+        "content": {
+          "valueBoolean": false,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "End of Life Care - Is the main informal carer aware of the diagnosis?",
+                "code": "EPACCS_MAIN_INFORMAL_CARER_AWARE_OF_DIAGNOSIS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "MAIN_INFORMAL_CARER_AWARE",
+          "resourceType": "Observation"
+        },
+        "id": "MAIN_INFORMAL_CARER_AWARE"
+      },
+      {
+        "content": {
+          "valueBoolean": false,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Issue of palliative care anticipatory medication box",
+                "code": "EPACCS_JUST_IN_CASE_BOX_ISSUED",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "JUST_IN_CASE_BOX_ISSUED",
+          "resourceType": "Observation"
+        },
+        "id": "JUST_IN_CASE_BOX_ISSUED"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Prescription of palliative care anticipatory medication",
+                "code": "8B2a.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "2250601000000111",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Prescription of palliative care anticipatory medication",
+                "code": "871021000000106",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Prescription of palliative care anticipatory medication",
+                "code": "XaaD3",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "End of life care anticipatory medicines have been prescribed",
+                "code": "EPACCS_ANTICIPATORY_MEDICINES_PRESCRIBED",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "ANTICIPATORY_MEDICINES_PRESCRIBED",
+          "resourceType": "Observation"
+        },
+        "id": "ANTICIPATORY_MEDICINES_PRESCRIBED"
+      },
+      {
+        "content": {
+          "valueBoolean": false,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "McKinley Syringe Pump Chart Completed",
+                "code": "MCKINLEY_SYRINGE_PUMP_CHART_COMPLETED",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "MCKINLEY_SYRINGE_PUMP_CHART_COMPLETED",
+          "resourceType": "Observation"
+        },
+        "id": "MCKINLEY_SYRINGE_PUMP_CHART_COMPLETED"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Not for attempted CPR (cardiopulmonary resuscitation)",
+                "code": "1R10.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "2212991000000115",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Not for attempted cardiopulmonary resuscitation",
+                "code": "450476008",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Not for attempted cardiopulmonary resuscitation",
+                "code": "XaZ9c",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "issued": "2020-12-17",
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "End of life care plan DNACPR status",
+                "code": "EPACCS_DNACPR_STATUS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "extension": [
+            {
+              "valueCode": "Yes",
+              "url": "http://fhir.blackpear.com/decision#patientaware"
+            },
+            {
+              "valueCode": "Yes",
+              "url": "http://fhir.blackpear.com/decision#familyaware"
+            },
+            {
+              "valueString": "Here",
+              "url": "http://fhir.blackpear.com/decision#documentlocation"
+            }
+          ],
+          "id": "DNACPR",
+          "resourceType": "Observation"
+        },
+        "id": "DNACPR"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Preferred place of care - home",
+                "code": "8Ce0.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "1123171000000115",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Preferred place of care - home",
+                "code": "505401000000102",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Preferred place of care - home",
+                "code": "XaQTk",
+                "system": "http://read.info/ctv3"
+              },
+              {
+                "display": "Preferred place of care - Home",
+                "code": "EPACCS_PREFERRED_PLACE_OF_CARE_HOME",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Preferred place of care first choice",
+                "code": "EPACCS_PREFERRED_PLACE_OF_CARE_1",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "PREFERRED_PLACE_OF_CARE_1",
+          "resourceType": "Observation"
+        },
+        "id": "PREFERRED_PLACE_OF_CARE_1"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Preferred place of death: hospice",
+                "code": "94Z2.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "160631000000111",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Preferred place of death: hospice",
+                "code": "108401000000102",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Preferred place of death: hospice",
+                "code": "XaJ3h",
+                "system": "http://read.info/ctv3"
+              },
+              {
+                "display": "Preferred place of death - Hospice",
+                "code": "EPACCS_PREFERRED_PLACE_OF_DEATH_HOSPICE",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Preferred place of death first choice",
+                "code": "EPACCS_PREFERRED_PLACE_OF_DEATH_1",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "PREFERRED_PLACE_OF_DEATH_1",
+          "resourceType": "Observation"
+        },
+        "id": "PREFERRED_PLACE_OF_DEATH_1"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "ACP offered to patient",
+                "code": "ACP_PROGRESS_OFFERED_TO_PATIENT",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Advance care plan progress",
+                "code": "EPACCS_ACP_PROGRESS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "EPACCS_ACP_PROGRESS",
+          "resourceType": "Observation"
+        },
+        "id": "EPACCS_ACP_PROGRESS"
+      },
+      {
+        "content": {
+          "valuePeriod": {
+            "start": "2020-11-03"
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Advanced care plan - last discussion date",
+                "code": "EPACCS_ACP_DISCUSSION_DATE",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "EPACCS_ACP_DISCUSSION_DATE",
+          "resourceType": "Observation"
+        },
+        "id": "EPACCS_ACP_DISCUSSION_DATE"
+      },
+      {
+        "content": {
+          "valueBoolean": true,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Issues about provision of care - Religious",
+                "code": "CAREPLAN_OTHER_ISSUES_RELIGIOUS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "CAREPLAN_OTHER_ISSUES_RELIGIOUS",
+          "resourceType": "Observation"
+        },
+        "id": "CAREPLAN_OTHER_ISSUES_RELIGIOUS"
+      },
+      {
+        "content": {
+          "valueBoolean": true,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Issues about provision of care - Spiritual",
+                "code": "CAREPLAN_OTHER_ISSUES_SPIRITUAL",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "CAREPLAN_OTHER_ISSUES_SPIRITUAL",
+          "resourceType": "Observation"
+        },
+        "id": "CAREPLAN_OTHER_ISSUES_SPIRITUAL"
+      },
+      {
+        "content": {
+          "valueBoolean": true,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Issues about provision of care - Cultural",
+                "code": "CAREPLAN_OTHER_ISSUES_CULTURAL",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "CAREPLAN_OTHER_ISSUES_CULTURAL",
+          "resourceType": "Observation"
+        },
+        "id": "CAREPLAN_OTHER_ISSUES_CULTURAL"
+      },
+      {
+        "content": {
+          "valueBoolean": true,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Issues about provision of care - Organ donation",
+                "code": "CAREPLAN_OTHER_ISSUES_ORGAN_DONATION",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "CAREPLAN_OTHER_ISSUES_ORGAN_DONATION",
+          "resourceType": "Observation"
+        },
+        "id": "CAREPLAN_OTHER_ISSUES_ORGAN_DONATION"
+      },
+      {
+        "content": {
+          "valueBoolean": false,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Issues about provision of care - Other social issues",
+                "code": "CAREPLAN_OTHER_ISSUES_OTHER_SOCIAL",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "CAREPLAN_OTHER_ISSUES_OTHER_SOCIAL",
+          "resourceType": "Observation"
+        },
+        "id": "CAREPLAN_OTHER_ISSUES_OTHER_SOCIAL"
+      },
+      {
+        "content": {
+          "valueBoolean": false,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Other instructions from the patient about their care",
+                "code": "CAREPLAN_OTHER_ISSUES_OTHER_INSTRUCTIONS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "CAREPLAN_OTHER_ISSUES_OTHER_INSTRUCTIONS",
+          "resourceType": "Observation"
+        },
+        "id": "CAREPLAN_OTHER_ISSUES_OTHER_INSTRUCTIONS"
+      },
+      {
+        "content": {
+          "valueBoolean": false,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Is main carer aware of prognosis",
+                "code": "EPACCS_MAIN_INFORMAL_CARER_AWARE_OF_PROGNOSIS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "EPACCS_MAIN_INFORMAL_CARER_AWARE_OF_PROGNOSIS",
+          "resourceType": "Observation"
+        },
+        "id": "EPACCS_MAIN_INFORMAL_CARER_AWARE_OF_PROGNOSIS"
+      },
+      {
+        "content": {
+          "valueBoolean": true,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Care plan documented",
+                "code": "CAREPLAN_DOCUMENTED",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "CAREPLAN_DOCUMENTED",
+          "resourceType": "Observation"
+        },
+        "id": "CAREPLAN_DOCUMENTED"
+      },
+      {
+        "content": {
+          "valueString": "Yes",
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Is Main Carer aware of DNACPR decision",
+                "code": "CARER_AWARE_OF_DNA_CPR",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "CARER_AWARE_OF_DNA_CPR",
+          "resourceType": "Observation"
+        },
+        "id": "CARER_AWARE_OF_DNA_CPR"
+      },
+      {
+        "content": {
+          "valuePeriod": {
+            "start": "2020-04-07"
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "GP system repeats prescription data date",
+                "code": "REPEATS_DATE",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "REPEATS_DATE",
+          "resourceType": "Observation"
+        },
+        "id": "REPEATS_DATE"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "On end of life care register",
+                "code": "9Ng7.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "1175491000000110",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "On end of life care register",
+                "code": "526631000000108",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "On end of life care register",
+                "code": "XaRFG",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "On end of life care register",
+                "code": "ON_END_OF_LIFE_CARE_REGISTER",
+                "system": "http://fhir.blackpear.com/bpc"
+              },
+              {
+                "display": "On end of life care register",
+                "code": "9Ng7.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "display": "On end of life care register",
+                "code": "526631000000108",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "On end of life care register",
+                "code": "XaRFG",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "ON_END_OF_LIFE_CARE_REGISTER",
+          "resourceType": "Observation"
+        },
+        "id": "ON_END_OF_LIFE_CARE_REGISTER"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Visual impairment",
+                "code": "F49D.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "1777162017",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Visual impairment",
+                "code": "397540003",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Visual impairment",
+                "code": "XE16L",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Visual impairment",
+                "code": "VISUAL_IMPAIRMENT",
+                "system": "http://fhir.blackpear.com/bpc"
+              },
+              {
+                "display": "Visual impairment",
+                "code": "F49D.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "1777162017",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Visual impairment",
+                "code": "397540003",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Impaired vision",
+                "code": "XE16L",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "VISUAL_IMPAIRMENT",
+          "resourceType": "Observation"
+        },
+        "id": "VISUAL_IMPAIRMENT"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Cognitive impairment",
+                "code": "28E3.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "1480926019",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Impaired cognition",
+                "code": "386806002",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Cognitive impairment",
+                "code": "Ua189",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Cognitive impairment",
+                "code": "COGNITIVE_IMPAIRMENT",
+                "system": "http://fhir.blackpear.com/bpc"
+              },
+              {
+                "display": "Cognitive impairment",
+                "code": "28E3.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "1480926019",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Impaired cognition",
+                "code": "386806002",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Cognitive impairment",
+                "code": "Ua189",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "COGNITIVE_IMPAIRMENT",
+          "resourceType": "Observation"
+        },
+        "id": "COGNITIVE_IMPAIRMENT"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Impaired ability to recognise safety risks",
+                "code": "13i2.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "2349201000000110",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Impaired ability to recognise safety risks",
+                "code": "914271000000103",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Impaired ability to recognise safety risks",
+                "code": "XabGs",
+                "system": "http://read.info/ctv3"
+              },
+              {
+                "display": "Impaired ability to recognise safety risks",
+                "code": "IMPAIRED_ABILITY_TO_RECOGNISE_SAFETY_RISKS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "comments": ".",
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Impaired ability to recognise safety risks",
+                "code": "IMPAIRED_ABLITY_TO_RECOGNISE_SAFETY_RISKS",
+                "system": "http://fhir.blackpear.com/bpc"
+              },
+              {
+                "display": "Impaired ability to recognise safety risks",
+                "code": "13i2.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "2349201000000110",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Impaired ability to recognise safety risks",
+                "code": "914271000000103",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Impaired ability to recognise safety risks",
+                "code": "XabGs",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "SAFETY_IMPAIRMENT",
+          "resourceType": "Observation"
+        },
+        "id": "SAFETY_IMPAIRMENT"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Hearing loss",
+                "code": "F59..00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "25788011",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Hearing loss",
+                "code": "15188001",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Hearing loss",
+                "code": "XE0s9",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Hearing impairment",
+                "code": "HEARING_IMPAIRMENT",
+                "system": "http://fhir.blackpear.com/bpc"
+              },
+              {
+                "display": "Hearing loss",
+                "code": "F59..00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "25788011",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Hearing loss",
+                "code": "15188001",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Hearing loss",
+                "code": "XE0s9",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "HEARING_IMPAIRMENT",
+          "resourceType": "Observation"
+        },
+        "id": "HEARING_IMPAIRMENT"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Difficulty communicating",
+                "code": "13oB.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "428261017",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Difficulty communicating",
+                "code": "288579009",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Difficulty communicating",
+                "code": "Xa4Cq",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Difficulty communicating",
+                "code": "DIFFICULTY_COMMUNICATING",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "DIFFICULTY_COMMUNICATING",
+          "resourceType": "Observation"
+        },
+        "id": "DIFFICULTY_COMMUNICATING"
+      },
+      {
+        "content": {
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "display": "Unable to summon help in an emergency",
+                "code": "1PA0.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "599411000000116",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Unable to summon help in emergency",
+                "code": "325541000000106",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Unable to summon help in an emergency",
+                "code": "Xaato",
+                "system": "http://read.info/ctv3"
+              },
+              {
+                "display": "Unable to summon help in emergency",
+                "code": "UNABLE_TO_SUMMON_HELP_EMERGENCY",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Unable to summon help in an emergency",
+                "code": "UNABLE_TO_SUMMON_HELP",
+                "system": "http://fhir.blackpear.com/bpc"
+              },
+              {
+                "display": "Unable to summon help in an emergency",
+                "code": "1PA0.00",
+                "system": "http://read.info/readv2"
+              },
+              {
+                "extension": [
+                  {
+                    "valueId": "599411000000116",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Unable to summon help in emergency",
+                "code": "325541000000106",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Unable to summon help in an emergency",
+                "code": "Xaato",
+                "system": "http://read.info/ctv3"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "SUMMON_HELP_IMPAIRMENT",
+          "resourceType": "Observation"
+        },
+        "id": "SUMMON_HELP_IMPAIRMENT"
+      },
+      {
+        "content": {
+          "valueBoolean": false,
+          "reliability": "ok",
+          "name": {
+            "coding": [
+              {
+                "display": "Mental capacity decision",
+                "code": "MENTAL_CAPACITY_DECISION",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "final",
+          "id": "MENTAL_CAPACITY_DECISION",
+          "resourceType": "Observation"
+        },
+        "id": "MENTAL_CAPACITY_DECISION"
+      },
+      {
+        "content": {
+          "name": {
+            "text": "Mr CSIS CSIS"
+          },
+          "id": "USUAL_GP",
+          "resourceType": "Practitioner"
+        },
+        "id": "USUAL_GP"
+      },
+      {
+        "content": {
+          "organization": {
+            "reference": "Organization/AUTHOR_ORGANISATION"
+          },
+          "name": {
+            "text": "Ewan Whyte"
+          },
+          "id": "AUTHOR",
+          "resourceType": "Practitioner"
+        },
+        "id": "AUTHOR"
+      },
+      {
+        "content": {
+          "organization": {
+            "reference": "Organization/LAST_AUTHOR_ORGANISATION"
+          },
+          "name": {
+            "text": "Ewan Whyte"
+          },
+          "id": "LAST_AUTHOR",
+          "resourceType": "Practitioner"
+        },
+        "id": "LAST_AUTHOR"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/5d9da19d1d950e07f4d456d9"
+          },
+          "code": {
+            "coding": [
+              {
+                "display": "Carcinoma in situ of colon",
+                "code": "92568009",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "id": "PRIMARY_DIAGNOSIS",
+          "resourceType": "Condition"
+        },
+        "id": "PRIMARY_DIAGNOSIS"
+      },
+      {
+        "content": {
+          "subject": {
+            "reference": "Patient/5d9da19d1d950e07f4d456d9"
+          },
+          "code": {
+            "coding": [
+              {
+                "display": "Other relevant End of Life Care clinical issues",
+                "code": "EPACCS_OTHER_RELEVANT_CLINICAL_ISSUES",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "EPACCS_OTHER_RELEVANT_CLINICAL_ISSUES",
+          "resourceType": "Condition"
+        },
+        "id": "EPACCS_OTHER_RELEVANT_CLINICAL_ISSUES"
+      },
+      {
+        "content": {
+          "identifier": [
+            {
+              "value": "A29390",
+              "system": "http://www.datadictionary.nhs.uk/data_dictionary/attributes/o/org/organisation_code_de.asp"
+            }
+          ],
+          "telecom": [
+            {
+              "value": "0191 1234567",
+              "use": "work",
+              "system": "phone"
+            },
+            {
+              "value": "Practice.Test@Testing.com",
+              "use": "work",
+              "system": "email"
+            },
+            {
+              "value": "0191 12347654",
+              "use": "work",
+              "system": "fax"
+            }
+          ],
+          "address": [
+            {
+              "zip": "LS19 6BA",
+              "state": "Yorkshire",
+              "city": "Leeds",
+              "line": [
+                "Fulford Grange, Micklefield Lane",
+                "Rawdon",
+                "Rawdon"
+              ],
+              "text": "Fulford Grange, Micklefield Lane, Rawdon, Rawdon, Leeds, Yorkshire, LS19 6BA",
+              "use": "work"
+            }
+          ],
+          "name": "Partner Test CDB29390",
+          "id": "4882",
+          "resourceType": "Organization"
+        },
+        "id": "4882"
+      },
+      {
+        "content": {
+          "name": "Somerset NHS Foundation Trust",
+          "id": "AUTHOR_ORGANISATION",
+          "resourceType": "Organization"
+        },
+        "id": "AUTHOR_ORGANISATION"
+      },
+      {
+        "content": {
+          "name": "Somerset NHS Foundation Trust",
+          "id": "LAST_AUTHOR_ORGANISATION",
+          "resourceType": "Organization"
+        },
+        "id": "LAST_AUTHOR_ORGANISATION"
+      },
+      {
+        "content": {
+          "type": {
+            "text": "STEP form",
+            "coding": [
+              {
+                "extension": [
+                  {
+                    "valueId": "3517255016",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Advance care plan",
+                "code": "736366004",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "status": "current",
+          "size": 24409,
+          "mimeType": "application/pdf",
+          "location": "https://endor.blackpear.com/pyruscloud/v1/esp/fhir/Binary/5e7e00c0776a3307b2939124",
+          "created": "2020-01-08T16:03:41.901Z",
+          "indexed": "2020-03-27T13:35:59.651Z",
+          "author": [
+            {
+              "display": "Steve Reay"
+            }
+          ],
+          "extension": [
+            {
+              "valueString": "ACP 16-01-2020 - Copy.pdf",
+              "url": "http://fhir.blackpear.com/document_attachment_title"
+            }
+          ],
+          "id": "ADVANCE_CARE_PLAN",
+          "resourceType": "DocumentReference"
+        },
+        "id": "ADVANCE_CARE_PLAN"
+      },
+      {
+        "content": {
+          "type": {
+            "text": "Advance Statement",
+            "coding": [
+              {
+                "extension": [
+                  {
+                    "valueId": "2674131000000118",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "Advance statement",
+                "code": "1064491000000109",
+                "system": "http://snomed.info/sct"
+              }
+            ]
+          },
+          "status": "current",
+          "size": 24409,
+          "mimeType": "application/pdf",
+          "location": "https://endor.blackpear.com/pyruscloud/v1/esp/fhir/Binary/5e7e0148776a3307b293912e",
+          "created": "2020-01-08T16:03:41.901Z",
+          "indexed": "2020-03-27T13:36:04.290Z",
+          "author": [
+            {
+              "display": "Steve Reay"
+            }
+          ],
+          "extension": [
+            {
+              "valueString": "AS 16-01-2020 - Copy - Copy.pdf",
+              "url": "http://fhir.blackpear.com/document_attachment_title"
+            }
+          ],
+          "id": "ADVANCE_STATEMENT",
+          "resourceType": "DocumentReference"
+        },
+        "id": "ADVANCE_STATEMENT"
+      },
+      {
+        "content": {
+          "type": {
+            "text": "Lasting Power of Attorney",
+            "coding": [
+              {
+                "display": "Lasting Power of Attorney",
+                "code": "LPA_DOCUMENT",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "status": "current",
+          "size": 24409,
+          "mimeType": "application/pdf",
+          "location": "https://endor.blackpear.com/pyruscloud/v1/esp/fhir/Binary/5e7e00c0776a3307b2939127",
+          "created": "2020-01-08T16:08:28.278Z",
+          "indexed": "2020-03-27T13:33:27.338Z",
+          "author": [
+            {
+              "display": "Steve Reay"
+            }
+          ],
+          "extension": [
+            {
+              "valueString": "LPA 10-01-2020.pdf",
+              "url": "http://fhir.blackpear.com/document_attachment_title"
+            }
+          ],
+          "id": "LPA_DOCUMENT",
+          "resourceType": "DocumentReference"
+        },
+        "id": "LPA_DOCUMENT"
+      },
+      {
+        "content": {
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "Observation/OTHER_IMPAIRMENT"
+            },
+            {
+              "item": "Observation/VISUAL_IMPAIRMENT"
+            },
+            {
+              "item": "Observation/COGNITIVE_IMPAIRMENT"
+            },
+            {
+              "item": "Observation/SAFETY_IMPAIRMENT"
+            },
+            {
+              "item": "Observation/HEARING_IMPAIRMENT"
+            },
+            {
+              "item": "Observation/DIFFICULTY_COMMUNICATING"
+            },
+            {
+              "item": "Observation/SUMMON_HELP_IMPAIRMENT"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "display": "End of Life Care related disability",
+                "code": "BPS_EPACCS_DISABILITY",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "DISABILITIES",
+          "resourceType": "List"
+        },
+        "id": "DISABILITIES"
+      },
+      {
+        "content": {
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "Condition/EPACCS_OTHER_RELEVANT_CLINICAL_ISSUES"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "display": "Other Relevant End of Life Care Diagnoses and Clinical Issues",
+                "code": "BPS_EPACCS_EOL_DIAGNOSES",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "EPACCS_OTHER_DIAGNOSES_LIST",
+          "resourceType": "List"
+        },
+        "id": "EPACCS_OTHER_DIAGNOSES_LIST"
+      },
+      {
+        "content": {
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "Observation/MCKINLEY_SYRINGE_PUMP_CHART_COMPLETED"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "display": "Anticipatory medicines issued",
+                "code": "BPS_EPACCS_ANTICIPATORY_MEDICINES",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "EPACCS_ANTICIPATORY_MEDICINES",
+          "resourceType": "List"
+        },
+        "id": "EPACCS_ANTICIPATORY_MEDICINES"
+      },
+      {
+        "content": {
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "Observation/PREFERRED_PLACE_OF_CARE_1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "display": "Preferred places of care",
+                "code": "BPS_EPACCS_PREFERRED_PLACES_OF_CARE",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "PREFERRED_PLACES_OF_CARE",
+          "resourceType": "List"
+        },
+        "id": "PREFERRED_PLACES_OF_CARE"
+      },
+      {
+        "content": {
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "Observation/PREFERRED_PLACE_OF_DEATH_1"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "display": "Preferred places of death",
+                "code": "BPS_EPACCS_PREFERRED_PLACES_OF_DEATH",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "PREFERRED_PLACES_OF_DEATH",
+          "resourceType": "List"
+        },
+        "id": "PREFERRED_PLACES_OF_DEATH"
+      },
+      {
+        "content": {
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "Observation/CAREPLAN_OTHER_ISSUES_RELIGIOUS"
+            },
+            {
+              "item": "Observation/CAREPLAN_OTHER_ISSUES_SPIRITUAL"
+            },
+            {
+              "item": "Observation/CAREPLAN_OTHER_ISSUES_CULTURAL"
+            },
+            {
+              "item": "Observation/CAREPLAN_OTHER_ISSUES_ORGAN_DONATION"
+            },
+            {
+              "item": "Observation/CAREPLAN_OTHER_ISSUES_OTHER_SOCIAL"
+            },
+            {
+              "item": "Observation/CAREPLAN_OTHER_ISSUES_OTHER_INSTRUCTIONS"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "display": "Other relevant issues or preferences about provision of care",
+                "code": "CAREPLAN_OTHER_ISSUES",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "CAREPLAN_OTHER_ISSUES",
+          "resourceType": "List"
+        },
+        "id": "CAREPLAN_OTHER_ISSUES"
+      },
+      {
+        "content": {
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "Observation/MENTAL_CAPACITY_DECISION"
+            }
+          ],
+          "code": {
+            "coding": [
+              {
+                "display": "Mental capacity items",
+                "code": "MENTAL_CAPACITY_ITEMS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "MENTAL_CAPACITY_ITEMS",
+          "resourceType": "List"
+        },
+        "id": "MENTAL_CAPACITY_ITEMS"
+      },
+      {
+        "content": {
+          "date": "2020-12-17",
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "Condition/D6A38196E3A1408BB3EC6E1193766219"
+            },
+            {
+              "item": "Condition/56241AC940564EB6A13F98674B5537C5"
+            },
+            {
+              "item": "Condition/987B0852B70145C0995D11EBF0461833"
+            },
+            {
+              "item": "Condition/0011100681104A62813B2B4348330D0D"
+            },
+            {
+              "item": "Condition/7DE8D970281B414B8B8A74A6613365FD"
+            },
+            {
+              "item": "Condition/5AF63E19ADBE486EB92E09DA65A6E42C"
+            },
+            {
+              "item": "Condition/096800E098344A0696B57ECD50F44AF5"
+            },
+            {
+              "item": "Condition/9F4AF335B9EB46098FDBB4F46BFB575C"
+            },
+            {
+              "item": "Condition/95CA1FCAFFA947D7A26E255B74E769F2"
+            },
+            {
+              "item": "Condition/31AA5A44D02642A38E554684FFFCECF5"
+            },
+            {
+              "item": "Condition/6EC03BC9541E4007A5E66AC9D176F855"
+            },
+            {
+              "item": "Condition/ADD08DCA09864F6893CB2B0969C60401"
+            },
+            {
+              "item": "Condition/922C1F09AC8A4DD6A56039ABA08B6C5D"
+            },
+            {
+              "item": "Condition/6A1EE156691A4346AF88423DE93378A9"
+            },
+            {
+              "item": "Condition/FFC595796FF04F0C934777242668D7B1"
+            },
+            {
+              "item": "Condition/D530C9271E2E4632A6E5A8B8BD754202"
+            }
+          ],
+          "code": {
+            "text": "Active significant problems",
+            "coding": [
+              {
+                "display": "Active significant problems",
+                "code": "ACTIVE_SIGNIFICANT_PROBLEMS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "ACTIVE_PROBLEMS",
+          "resourceType": "List"
+        },
+        "id": "ACTIVE_PROBLEMS"
+      },
+      {
+        "content": {
+          "date": "2020-12-17",
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "MedicationPrescription/EF3AC28D2ECE458BAC7DBB0AD203EBDF"
+            },
+            {
+              "item": "Medication/med-EF3AC28D2ECE458BAC7DBB0AD203EBDF"
+            }
+          ],
+          "code": {
+            "text": "Active repeat prescriptions",
+            "coding": [
+              {
+                "display": "Active repeat prescriptions",
+                "code": "ACTIVE_REPEATS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "ACTIVE_REPEATS",
+          "resourceType": "List"
+        },
+        "id": "ACTIVE_REPEATS"
+      },
+      {
+        "content": {
+          "date": "2020-12-17",
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "MedicationPrescription/66F362B58AD94F7F82211A94E9BC49D6"
+            },
+            {
+              "item": "MedicationPrescription/1D478ACB527640C38486F1F5182C2C43"
+            },
+            {
+              "item": "MedicationPrescription/4C6F337FFBE24C6290BE116CFB989BAB"
+            },
+            {
+              "item": "MedicationPrescription/C045F799FD344505ADA3579517F75FDB"
+            },
+            {
+              "item": "MedicationPrescription/D4F63B09A9A64A3EAD0EC908ADD8EB91"
+            },
+            {
+              "item": "MedicationPrescription/1FB5674DD19E47F68705A01B97B28FEB"
+            },
+            {
+              "item": "MedicationPrescription/DA26E14784C2459DBA090F154FF6DF94"
+            },
+            {
+              "item": "MedicationPrescription/402C66B1ADD3402DA0DEBCF1D480E495"
+            },
+            {
+              "item": "MedicationPrescription/549BD7A8DC5740F4916681D8D760F729"
+            },
+            {
+              "item": "MedicationPrescription/F9B19965796B4DFF8EDB6CC3687557C7"
+            },
+            {
+              "item": "MedicationPrescription/6F357F482B3B4A7FA033A70CF5E78689"
+            },
+            {
+              "item": "Medication/med-66F362B58AD94F7F82211A94E9BC49D6"
+            },
+            {
+              "item": "Medication/med-1D478ACB527640C38486F1F5182C2C43"
+            },
+            {
+              "item": "Medication/med-4C6F337FFBE24C6290BE116CFB989BAB"
+            },
+            {
+              "item": "Medication/med-C045F799FD344505ADA3579517F75FDB"
+            },
+            {
+              "item": "Medication/med-D4F63B09A9A64A3EAD0EC908ADD8EB91"
+            },
+            {
+              "item": "Medication/med-1FB5674DD19E47F68705A01B97B28FEB"
+            },
+            {
+              "item": "Medication/med-DA26E14784C2459DBA090F154FF6DF94"
+            },
+            {
+              "item": "Medication/med-402C66B1ADD3402DA0DEBCF1D480E495"
+            },
+            {
+              "item": "Medication/med-549BD7A8DC5740F4916681D8D760F729"
+            },
+            {
+              "item": "Medication/med-F9B19965796B4DFF8EDB6CC3687557C7"
+            },
+            {
+              "item": "Medication/med-6F357F482B3B4A7FA033A70CF5E78689"
+            }
+          ],
+          "code": {
+            "text": "Recent acute prescriptions",
+            "coding": [
+              {
+                "display": "Recent acute prescriptions",
+                "code": "RECENT_ACUTE_PRESCRIPTIONS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "RECENT_ACUTE_PRESCRIPTIONS",
+          "resourceType": "List"
+        },
+        "id": "RECENT_ACUTE_PRESCRIPTIONS"
+      },
+      {
+        "content": {
+          "date": "2020-12-17",
+          "mode": "snapshot",
+          "entry": [
+            {
+              "item": "AllergyIntolerance/D3432A10456248ED83712AD5C5782A48"
+            }
+          ],
+          "code": {
+            "text": "Allergies",
+            "coding": [
+              {
+                "display": "Allergies",
+                "code": "ALLERGIES",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "id": "ALLERGIES",
+          "resourceType": "List"
+        },
+        "id": "ALLERGIES"
+      },
+      {
+        "content": {
+          "confidentiality": "N",
+          "attester": [
+            {
+              "party": {
+                "reference": "Practitioner/AUTHOR"
+              },
+              "mode": [
+                "professional"
+              ]
+            }
+          ],
+          "author": [
+            {
+              "reference": "Practitioner/AUTHOR"
+            }
+          ],
+          "subject": {
+            "reference": "Patient/5d9da19d1d950e07f4d456d9"
+          },
+          "status": "final",
+          "type": {
+            "coding": [
+              {
+                "display": "Electronic Palliative Care Co-ordination System Record for SIDeR",
+                "code": "SIDER_EPACCS",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "section": [
+            {
+              "content": {
+                "reference": "CarePlan/EPACCS_CAREPLAN"
+              },
+              "title": "Care Plan"
+            },
+            {
+              "content": {
+                "reference": "Observation/INTERPRETER_NEEDED"
+              },
+              "title": "Need for an Interpreter"
+            },
+            {
+              "content": {
+                "reference": "Observation/LANGUAGE_SPOKEN"
+              },
+              "title": "Preferred Spoken Language"
+            },
+            {
+              "content": {
+                "reference": "List/DISABILITIES"
+              },
+              "title": "Disability"
+            },
+            {
+              "content": {
+                "reference": "Observation/MAIN_INFORMAL_CARER_AWARE"
+              },
+              "title": "Is Main Informal Carer Aware of Person's Prognosis?"
+            },
+            {
+              "content": {
+                "reference": "Observation/JUST_IN_CASE_BOX_ISSUED"
+              },
+              "title": "Anticipatory Medicines/Just in Case Box Issued"
+            },
+            {
+              "content": {
+                "reference": "Observation/ANTICIPATORY_MEDICINES_PRESCRIBED"
+              },
+              "title": "Anticipatory Medicines/Anticipatory Medicines Prescribed"
+            },
+            {
+              "content": {
+                "reference": "List/EPACCS_ANTICIPATORY_MEDICINES"
+              },
+              "title": "Anticipatory Medicines"
+            },
+            {
+              "content": {
+                "reference": "List/PREFERRED_PLACES_OF_CARE"
+              },
+              "title": "Preferred Places of Care"
+            },
+            {
+              "content": {
+                "reference": "List/PREFERRED_PLACES_OF_DEATH"
+              },
+              "title": "Preferred Places of Death"
+            },
+            {
+              "content": {
+                "reference": "Observation/DNACPR"
+              },
+              "title": "DNACPR decision made"
+            },
+            {
+              "content": {
+                "reference": "Observation/EPACCS_ACP_PROGRESS"
+              },
+              "title": "Advanced Care Plan Progress"
+            },
+            {
+              "content": {
+                "reference": "Observation/EPACCS_ACP_DISCUSSION_DATE"
+              },
+              "title": "The date of the last discussion about the end of life care plan"
+            },
+            {
+              "content": {
+                "reference": "List/CAREPLAN_OTHER_ISSUES"
+              },
+              "title": "Other relevant issues or preferences about provision of care"
+            },
+            {
+              "content": {
+                "reference": "Observation/EPACCS_MAIN_INFORMAL_CARER_AWARE_OF_PROGNOSIS"
+              },
+              "title": "Is main carer aware of prognosis"
+            },
+            {
+              "content": {
+                "reference": "Observation/CAREPLAN_DOCUMENTED"
+              },
+              "title": "Care plan documented"
+            },
+            {
+              "content": {
+                "reference": "Observation/CARER_AWARE_OF_DNA_CPR"
+              },
+              "title": "Main carer aware of DNACPR"
+            },
+            {
+              "content": {
+                "reference": "Observation/REPEATS_DATE"
+              },
+              "title": "Repeat prescriptions last updated"
+            },
+            {
+              "content": {
+                "reference": "Observation/ON_END_OF_LIFE_CARE_REGISTER"
+              },
+              "title": "On End of Life Care Register"
+            },
+            {
+              "content": {
+                "reference": "Practitioner/LAST_AUTHOR"
+              },
+              "title": "Resource with id LAST_AUTHOR"
+            },
+            {
+              "content": {
+                "reference": "List/MENTAL_CAPACITY_ITEMS"
+              },
+              "title": "Items relating to mental capacity assessment"
+            },
+            {
+              "content": {
+                "reference": "Observation/INFORM_PATIENT_STATUS"
+              },
+              "title": "Informing the patient that EPaCCS will be shared, viewed and amended"
+            },
+            {
+              "content": {
+                "reference": "List/EPACCS_OTHER_DIAGNOSES_LIST"
+              },
+              "title": "Resource with id EPACCS_OTHER_DIAGNOSES_LIST"
+            },
+            {
+              "content": {
+                "reference": "DocumentReference/ADVANCE_CARE_PLAN"
+              },
+              "title": "Advance Care Plan"
+            },
+            {
+              "content": {
+                "reference": "DocumentReference/ADVANCE_STATEMENT"
+              },
+              "title": "Advance Statement"
+            },
+            {
+              "content": {
+                "reference": "DocumentReference/LPA_DOCUMENT"
+              },
+              "title": "Lasting Power of Attorney document"
+            },
+            {
+              "content": {
+                "reference": "List/ACTIVE_PROBLEMS"
+              },
+              "title": "Active significant problems"
+            },
+            {
+              "content": {
+                "reference": "List/ACTIVE_REPEATS"
+              },
+              "title": "Active repeat prescriptions"
+            },
+            {
+              "content": {
+                "reference": "List/RECENT_ACUTE_PRESCRIPTIONS"
+              },
+              "title": "Recent acute prescriptions"
+            },
+            {
+              "content": {
+                "reference": "List/ALLERGIES"
+              },
+              "title": "Allergies"
+            },
+            {
+              "content": {
+                "reference": "Organization/AUTHOR_ORGANISATION"
+              },
+              "title": "Resource with id AUTHOR_ORGANISATION"
+            },
+            {
+              "content": {
+                "reference": "Organization/LAST_AUTHOR_ORGANISATION"
+              },
+              "title": "Resource with id LAST_AUTHOR_ORGANISATION"
+            },
+            {
+              "content": {
+                "reference": "Practitioner/USUAL_GP"
+              },
+              "title": "Resource with id USUAL_GP"
+            }
+          ],
+          "date": "2020-12-17T11:29:24.533Z",
+          "id": "EPACCS_COMPOSITION",
+          "resourceType": "Composition"
+        },
+        "id": "EPACCS_COMPOSITION"
+      },
+      {
+        "content": {
+          "type": {
+            "coding": [
+              {
+                "extension": [
+                  {
+                    "valueId": "2227611000000111",
+                    "url": "http://hl7.org/fhir/StructureDefinition/coding-sctdescid"
+                  }
+                ],
+                "display": "End of Life Care Coordination Summary\"",
+                "code": "861421000000109",
+                "system": "http://snomed.info/sct"
+              },
+              {
+                "display": "Care Plan PDF",
+                "code": "CARE_PLAN_PDF",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/5d9da19d1d950e07f4d456d9"
+          },
+          "status": "current",
+          "masterIdentifier": {
+            "label": "EPaCCS",
+            "value": "https://endor.blackpear.com/pyruscloud/v1/esp/fhir/Binary/5f36aa06e388fa28165c334f"
+          },
+          "mimeType": "application/pdf",
+          "location": "https://endor.blackpear.com/pyruscloud/v1/esp/fhir/Binary/5f36aa06e388fa28165c334f",
+          "created": "2020-12-17T11:29:31.984Z",
+          "indexed": "2020-12-17T11:29:31.984Z",
+          "description": "EPaCCS",
+          "author": [
+            {
+              "reference": "Practitioner/AUTHOR"
+            }
+          ],
+          "extension": [
+            {
+              "valueString": "EPaCCS",
+              "url": "http://fhir.blackpear.com/document_attachment_title"
+            }
+          ],
+          "id": "b8d85be1-d997-4314-b62f-7b6aa39ca19d",
+          "resourceType": "DocumentReference"
+        },
+        "id": "b8d85be1-d997-4314-b62f-7b6aa39ca19d"
+      },
+      {
+        "content": {
+          "type": {
+            "coding": [
+              {
+                "display": "Embedded FHIR R4 Bundle",
+                "code": "EMBEDDED_R4_BUNDLE",
+                "system": "http://fhir.blackpear.com/bpc"
+              }
+            ]
+          },
+          "subject": {
+            "reference": "Patient/5d9da19d1d950e07f4d456d9"
+          },
+          "status": "current",
+          "masterIdentifier": {
+            "label": "R4 Bundle",
+            "value": "https://endor.blackpear.com/pyruscloud/v1/esp/fhir/Binary/5fa13abe6344e4281b66e373"
+          },
+          "mimeType": "application/fhir+json; fhirVersion=4.0",
+          "location": "https://endor.blackpear.com/pyruscloud/v1/esp/fhir/Binary/5fa13abe6344e4281b66e373",
+          "created": "2020-12-17T11:29:32.474Z",
+          "indexed": "2020-12-17T11:29:32.473Z",
+          "description": "R4 Bundle",
+          "author": [
+            {
+              "reference": "Practitioner/AUTHOR"
+            }
+          ],
+          "extension": [
+            {
+              "valueString": "R4 Bundle",
+              "url": "http://fhir.blackpear.com/document_attachment_title"
+            }
+          ],
+          "id": "ed0442b7-8fc0-4b54-8a1a-6e0aab380abb",
+          "resourceType": "DocumentReference"
+        },
+        "id": "ed0442b7-8fc0-4b54-8a1a-6e0aab380abb"
+      }
+    ],
+    "title": "SIDeR EPaCCS record",
+    "link": []
+  }
+}
